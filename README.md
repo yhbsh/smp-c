@@ -35,7 +35,7 @@ make
 ./bin/smp [port]    # default: 7777
 ```
 
-Push and pull with FFmpeg:
+Push and pull with [FFmpeg](https://github.com/yhbsh/ffmpeg) (fork with SMP protocol/format support):
 
 ```
 ffmpeg -re -i input.mp4 -c copy -f smp smp://localhost:7777/live
